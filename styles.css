@@ -32,12 +32,12 @@
 }
  
 
-.container h2{
+.text h2{
     font-weight: 700;
     padding: 1rem;
 }
 
-.container p{
+.text p{
     font-weight: 400;
     margin: 0 22px;
 }
