@@ -1,0 +1,48 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%)
+
+    
+  }
+.container{
+    width: 375px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    margin: 3rem auto 2rem;
+    padding: 1rem 1rem 1.5rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+
+.container img{
+    width: 100%;
+    border-radius: 15px;
+
+}
+ 
+
+.container h2{
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.container p{
+    font-weight: 400;
+    margin: 0 22px;
+}
+ 
+.attribution{
+    font: 15px;
+    text-align: center;
+}  
